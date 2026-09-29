@@ -1,0 +1,12 @@
+{
+  "checkpoint": "runs\\ens-E2-d3-s18\\submission.pt",
+  "parameters": 8293376,
+  "asset_bytes": 33227561,
+  "asset_mib": 31.69,
+  "score_seconds_cpu_fp32": 41.3541041999124,
+  "peak_working_set_gib": 1.85,
+  "test_bpb": 1.4764195842872718,
+  "threads": 4,
+  "torch_version": "2.7.1+cu128",
+  "os": "nt"
+}

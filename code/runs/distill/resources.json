@@ -1,0 +1,12 @@
+{
+  "checkpoint": "runs\\distill\\submission.pt",
+  "parameters": 4146688,
+  "asset_bytes": 16612853,
+  "asset_mib": 15.84,
+  "score_seconds_cpu_fp32": 19.158947499934584,
+  "peak_working_set_gib": 1.81,
+  "test_bpb": 1.5080938610999628,
+  "threads": 4,
+  "torch_version": "2.7.1+cu128",
+  "os": "nt"
+}

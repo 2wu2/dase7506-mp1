@@ -1,0 +1,98 @@
+{
+  "protocol": "7506-mp1-wt2-v2",
+  "implementation": "model",
+  "config": {
+    "vocab": 2048,
+    "width": 128,
+    "heads": 4,
+    "depth": 4,
+    "context": 256
+  },
+  "seed": 17,
+  "parameters": 1088256,
+  "precision": "bf16",
+  "train_tokens": 9830400,
+  "preparation_seconds": 9.539254100061953,
+  "train_seconds": 16.922079199925065,
+  "validation": {
+    "bpb": 2.071781167335554,
+    "token_ppl": 79.6455600691834,
+    "nll_nats": 1648594.6199023789,
+    "targets": 376599,
+    "utf8_bytes": 1148007,
+    "seconds": 0.8585251998156309
+  },
+  "history": [
+    {
+      "step": 100,
+      "loss": 5.936429977416992,
+      "seconds": 2.1147515999618918
+    },
+    {
+      "step": 200,
+      "loss": 5.242331504821777,
+      "seconds": 3.437028900021687
+    },
+    {
+      "step": 300,
+      "loss": 4.939980506896973,
+      "seconds": 4.761782299960032
+    },
+    {
+      "step": 400,
+      "loss": 4.679126739501953,
+      "seconds": 6.077459699939936
+    },
+    {
+      "step": 500,
+      "loss": 4.666042804718018,
+      "seconds": 7.403006999986246
+    },
+    {
+      "step": 600,
+      "loss": 4.531769752502441,
+      "seconds": 8.751039599999785
+    },
+    {
+      "step": 700,
+      "loss": 4.439172267913818,
+      "seconds": 10.093651700066403
+    },
+    {
+      "step": 800,
+      "loss": 4.4582414627075195,
+      "seconds": 11.444324299925938
+    },
+    {
+      "step": 900,
+      "loss": 4.3810296058654785,
+      "seconds": 12.813592199934646
+    },
+    {
+      "step": 1000,
+      "loss": 4.356263160705566,
+      "seconds": 14.1763065000996
+    },
+    {
+      "step": 1100,
+      "loss": 4.317800998687744,
+      "seconds": 15.54800960002467
+    },
+    {
+      "step": 1200,
+      "loss": 4.317157745361328,
+      "seconds": 16.921988900052384
+    }
+  ],
+  "validation_history": [],
+  "intermediate_validation_seconds": 0.0,
+  "process_seconds": 27.461404400179163,
+  "torch_version": "2.7.1+cu128",
+  "threads": 4,
+  "checkpoint_sha256": "cecbdff4e67ff20ee41eb22aa41aa31f8ed12983e3aa38d6f671a6a778504139",
+  "implementation_sha256": "6cce142a31d396f017319543f50d70f30fa6da740729af01c8baed13c6f671f9",
+  "device": "cuda:0",
+  "device_name": "NVIDIA GeForce RTX 5070 Laptop GPU",
+  "peak_allocated_gb": 0.421352448,
+  "peak_reserved_gb": 0.476053504
+}

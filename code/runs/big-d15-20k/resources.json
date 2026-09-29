@@ -1,0 +1,12 @@
+{
+  "checkpoint": "runs\\big-d15-20k\\checkpoint.pt",
+  "parameters": 6908416,
+  "asset_bytes": 55331866,
+  "asset_mib": 52.77,
+  "score_seconds_cpu_fp32": 30.565372299868613,
+  "peak_working_set_gib": 1.89,
+  "test_bpb": 1.5380669726717813,
+  "threads": 4,
+  "torch_version": "2.7.1+cu128",
+  "os": "nt"
+}

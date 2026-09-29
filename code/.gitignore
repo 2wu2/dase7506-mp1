@@ -1,0 +1,25 @@
+.venv/
+__pycache__/
+*.pyc
+
+# Training logs and per-window dumps stay out of the repository.
+runs/**/*.log
+runs/**/*.err
+runs/**/*.npy
+
+# Bulky training checkpoints (raw + EMA shadow buffers) are excluded; every
+# predictor needed for verification ships as a slim submission.pt instead.
+# The small baseline checkpoint is kept for exact baseline reproduction.
+runs/*/checkpoint.pt
+!runs/baseline-s17/checkpoint.pt
+
+# Checkpoints of rejected/superseded variants (documented in REPORT.md):
+runs/soup-d3-d1/
+runs/soup-d3-s18/
+runs/untied-20k/submission.pt
+runs/distill/submission.pt
+
+# Partial runs discarded mid-training.
+runs/distill-e2-big/
+runs/distill-e2-60k/
+runs/smoke/

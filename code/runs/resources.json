@@ -1,0 +1,12 @@
+{
+  "checkpoint": "runs\\ensemble.pt",
+  "parameters": 8293376,
+  "asset_bytes": 33221548,
+  "asset_mib": 31.68,
+  "score_seconds_cpu_fp32": 47.36409920011647,
+  "peak_working_set_gib": 1.85,
+  "test_bpb": 1.4742114752288664,
+  "threads": 4,
+  "torch_version": "2.7.1+cu128",
+  "os": "nt"
+}
